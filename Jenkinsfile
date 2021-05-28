@@ -19,11 +19,11 @@
                sh "mvn test"
            }
          }
-       stage('--Package--') {
+       stage('--Deploy--') {
           
            steps {
                
-               sh "mvn Package"
+               sh "mvn Deploy"
            }
                
          }
